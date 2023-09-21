@@ -99,8 +99,8 @@ LIMIT 5;
 ## Visualization
 
 To visualize the data, you can use Tableau. Here are the recommended visualizations:
-![Screenshot 2023-09-21 010424](https://github.com/MinaJoseph01/Pizzza_sales_report/assets/142174893/73be5bf9-1d81-4400-bf67-25b421124184)
 ![Screenshot 2023-09-21 005914](https://github.com/MinaJoseph01/Pizzza_sales_report/assets/142174893/4a472a16-d2da-494a-957c-66b7aa0ff206)
+![Screenshot 2023-09-21 010424](https://github.com/MinaJoseph01/Pizzza_sales_report/assets/142174893/73be5bf9-1d81-4400-bf67-25b421124184)
 
 1. Stacked Bar Chart: Hourly Trend for Total Pizzas Sold
 2. Line Chart: Weekly Trend for Total Orders
