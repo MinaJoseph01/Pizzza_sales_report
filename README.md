@@ -10,17 +10,21 @@ The following SQL queries can be used to retrieve the required data:
 
   1.Total Revenue:
       select cast(sum(total_price) as decimal(16,2)) as Total_revenue from US_sales.dbo.pizza_sales
+      
   2.Average Order Value:
       select cast(sum(total_price)/count(order_id) as decimal(16,2)) as avg_order_value from US_sales.dbo.pizza_sales
+      
   3.Total Pizzas Sold:
       select sum(quantity) as total_pizza_sold from US_sales.dbo.pizza_sales
+      
   4.Total Orders:
       select count(order_id)  as total_orders from US_sales.dbo.pizza_sales
 
-Average Pizzas Per Order:
+  5.Average Pizzas Per Order:
 SELECT SUM(quantity) / COUNT(*) AS average_pizzas_per_order
 FROM pizza_orders;
-Hourly Trend for Total Pizzas Sold:
+
+   6.Hourly Trend for Total Pizzas Sold:
 SELECT HOUR(order_time) AS hour, SUM(quantity) AS total_pizzas_sold
 FROM pizza_orders
 GROUP BY HOUR(order_time)
